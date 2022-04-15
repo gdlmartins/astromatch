@@ -1,0 +1,25 @@
+
+.toRight{ 
+animation-name: clickRight; 
+animation-duration:0.8s;
+/* animation-delay:1s; */
+}
+
+@keyframes clickRight{ 
+from{transform: translateX(0)}
+to{transform: translateX(500px)} 
+} 
+
+
+.toLeft{ 
+animation-name: clickLeft; 
+animation-duration:0.8s;
+/* animation-delay:1s; */
+}
+
+
+@keyframes clickLeft{ 
+from{transform: translateX(0)}
+to{transform: translateX(-500px)} 
+} 
+    
